@@ -59,12 +59,12 @@ class ProfileCard extends StatelessWidget {
                   Center(
                     child: CircleAvatar(
                       radius: 50,
-                      backgroundImage: AssetImage("assets/profile.jpeg"),
+                      backgroundImage: AssetImage("assets/IMG_4175.HEIC"),
                     ),
                   ),
                   SizedBox(height: 16),
                   Text(
-                    "Name",
+                    "Shriya Shrestha",
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
@@ -93,7 +93,7 @@ class ProfileCard extends StatelessWidget {
               ),
             ),
             const Text(
-              "I'm an CS student at Rutgers, and I love to code.",
+              "CS & Quantitative Econ Student at Rutgers",
               style: TextStyle(fontSize: 14),
             ),
             const SizedBox(height: 16),
@@ -105,7 +105,7 @@ class ProfileCard extends StatelessWidget {
                     Icon(Icons.work, size: 28),
                     SizedBox(height: 4),
                     Text(
-                      "Company Inc.",
+                      "",
                       style:
                           TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
                     ),
@@ -141,11 +141,11 @@ class ProfileCard extends StatelessWidget {
               children: <Widget>[
                 _buildSocialButton(Icons.code, "GitHub", () {
                   Clipboard.setData(const ClipboardData(
-                      text: "https://github.com/misraishan"));
+                      text: "https://github.com/shriyashrestha2"));
                 }),
                 _buildSocialButton(Icons.work_history_outlined, "LinkedIn", () {
                   Clipboard.setData(const ClipboardData(
-                      text: "https://www.linkedin.com/in/misraishan/"));
+                      text: "https://www.linkedin.com/in/shriya-shrestha-55060a21a/"));
                 }),
               ],
             ),
